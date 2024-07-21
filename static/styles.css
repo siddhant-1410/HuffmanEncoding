@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, h2, form, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a basic style to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1037;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for section headings */
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Style for forms */
+form {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form inputs */
+input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style for submit buttons */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add some responsiveness */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zain-extralight {
+    font-family: "Zain", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .zain-light {
+    font-family: "Zain", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .zain-regular {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zain-bold {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: xx-large;
+  }
+  
+  .zain-extrabold {
+    font-family: "Zain", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .zain-black {
+    font-family: "Zain", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
